@@ -1,0 +1,19 @@
+table {
+  overflow: hidden;
+}
+table th, table td {
+  padding: 0.25em 0.5em;
+  font-size: 15px;
+  text-align: center;
+  vertical-align: top;
+}
+table th {
+  color: #fff;
+}
+table tr {
+  transition: all 1s ease-in-out;
+  color: red;
+}
+table tr.slide-out {
+  transform: translateX(100%);
+}
